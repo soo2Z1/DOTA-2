@@ -1,46 +1,54 @@
 body{
-    background-color:#0f0f0f
+    background-color:#0f0f0f;
 }
 
 .block1{
     text-align:center;
+    z-index: 1;
 }
 
 .block1:hover{
     font-size: 100px;
+    z-index: 1;
 }
 
 p{
     font-size:20px;
     color:#959595; 
     text-align:center;
+    z-index: 2;
 }
 
 h2{
     color:#7f0000; 
     text-align:center;
+    z-index: 2;
 }
 
 .carry{
     font-size: 20px;
     top:50px;
     left: -10px;
+    z-index: 1;
 }
 
 .mid{
     font-size: 20px;
     top:100px;
     right: -10px;
+    z-index: 1;
 }
 
 .hard{
     font-size: 20px;
     top:150px;
     left: -10px;
+    z-index: 1;
 }
 
 .soft{
     font-size: 20px;
     top:200px;
     right: -10px;
+    z-index: 1;
 }
